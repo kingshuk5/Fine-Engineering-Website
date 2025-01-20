@@ -1,12 +1,13 @@
 import * as React from "react";
-import  NavLink  from "@/components/NavLink";
-import { ProjectCard } from "@/components/ProjectCard";
-import { TestimonialCard } from "@/components/TestimonialCard";
-import { ContactInfo } from "@/components/ContactInfo";
+
 import HeroSection from "@/components/HeroSection";
 import StatisticsSection from "@/components/StatisticsSection";
 import CommitmentSection from "@/components/CommitmentSection";
 import ServicesSection from "@/components/ServicesSection";
+import GalaryGrid from "@/components/Galary";
+import Map_1 from "@/components/mapHome";
+import TestimonialCarousel from "@/components/TestimonialCard";
+import ImageComponent from "@/components/HomeVideo";
 
 const HomePage = () => {
   return (
@@ -28,16 +29,12 @@ const HomePage = () => {
         imageSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/4226f748bcde9652dbf53b8333e2e648bc505fdbddcde26a654a8499ce6a0509?placeholderIfAbsent=true&apiKey=d58f0417017c44eeafb1fd1e09f95bcf"
       />
 
-      <ServicesSection/>
+      <ServicesSection  />
 
-      
-      <TestimonialCard
-        quote="Suspendisse tortor enim, varius et porttitor sit amet, posuere vitae massa."
-        author="Katy Grey"
-        role="CEO Grey Industries"
-        image="https://cdn.builder.io/api/v1/image/assets/TEMP/ab86efd9e04b63e323271e2b957bfff9ed3b24e2df1883c6e8161dbc352e4bc7?placeholderIfAbsent=true&apiKey=d58f0417017c44eeafb1fd1e09f95bcf"
-      />
-
+      <GalaryGrid/>
+      <Map_1/>
+      <TestimonialCarousel/>
+      <ImageComponent src={""} className={""}/>
       {/* Rest of the component implementation following the same pattern */}
     </div>
   );

@@ -21,7 +21,7 @@ const Navigation: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center self-stretch px-16 pt-5 w-full bg-white max-md:px-5 max-md:max-w-full">
+    <div className="flex flex-col items-center self-stretch px-16 pt-5 w-full bg-white max-md:px-5 max-md:max-w-full mb-10 md:mb-0">
       <div className="flex z-10 -mb-1 max-w-full w-[1189px]">
         <div className="flex flex-col">
           {/* <div className="self-center text-sm font-light leading-none uppercase text-zinc-700">
