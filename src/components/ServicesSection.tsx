@@ -1,3 +1,4 @@
+import { ArrowLeftCircleIcon, ArrowRightIcon } from "@heroicons/react/24/solid";
 import * as React from "react";
 
 interface ServiceCardProps {
@@ -47,6 +48,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ imageSrc, title, description,
         <div className={`relative self-end px-4 mt-72 text-2xl font-black leading-none text-center text-white whitespace-nowrap ${bgColor} h-[55px] w-[55px] max-md:mt-10`} 
              role="button" 
              tabIndex={0}>
+              <ArrowRightIcon
+                className="my-3"
+              />
         </div>
       </div>
     </div>

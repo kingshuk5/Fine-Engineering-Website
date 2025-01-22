@@ -83,7 +83,7 @@ const StatisticsSection: React.FC = () => {
               <div className="self-start text-4xl font-medium leading-10 text-sky-950">
                 We Construct and Manage Places and Infrastructures
               </div>
-              <div className="flex flex-col items-end mt-12 w-full h-[299px] max-md:mt-10">
+              <div className="flex flex-wrap items-end mt-12 w-screen md:w-full  md:h-[299px] max-md:mt-10">
                 {services.map((service, index) => (
                   <div key={index} className={index > 0 ? "mt-6" : ""}>
                     <ServiceCard {...service} />
