@@ -113,8 +113,8 @@ const AboutUs: React.FC = () => {
   ];
 
   return (
-    <div className="flex overflow-hidden flex-col items-center bg-white max-md:py-24">
-      <div className="flex relative z-10 flex-col self-stretch px-16 pt-96 pb-0 w-full text-6xl font-semibold leading-none text-white min-h-[419px] max-md:px-5 max-md:pt-24 max-md:pb-2.5 max-md:max-w-full max-md:text-4xl">
+    <div className="flex overflow-hidden flex-col items-center bg-white">
+      <div className="flex relative  flex-col self-stretch px-16 pt-96 pb-0 w-full text-6xl font-semibold leading-none text-white min-h-[419px] max-md:px-5 max-md:pt-24 max-md:pb-2.5 max-md:max-w-full max-md:text-4xl">
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/afc417e5bc1b3a5742868e4805e2ec437d70a62617bfc29c95a0718ee69f80ba?placeholderIfAbsent=true&apiKey=d58f0417017c44eeafb1fd1e09f95bcf"

@@ -84,11 +84,6 @@ export default function TestimonialCarousel() {
               <div className="mt-1.5 text-sm leading-none text-emerald-600">
                 {testimonials[currentIndex].position}
               </div>
-              <img
-                loading="lazy"
-                src={testimonials[currentIndex].companyLogo}
-                alt={`${testimonials[currentIndex].position} company logo`}
-                className="object-contain mt-10 w-16 aspect-[4.57]" />
             </div>
           </div>
         </div>

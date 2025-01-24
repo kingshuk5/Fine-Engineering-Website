@@ -140,7 +140,7 @@ function MyComponent() {
 
 const PortfolioArchive: React.FC = () => {
   return (
-    <div className="flex overflow-hidden flex-col bg-white max-md:py-24">
+    <div className="flex overflow-hidden flex-col bg-white">
       <Hero
         title="Portfolio Archive"
         breadcrumb="Home / Portfolio Archive"

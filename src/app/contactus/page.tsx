@@ -85,7 +85,7 @@ function ContactPage() {
   };
 
   return (
-    <div className="flex overflow-hidden flex-col bg-white max-md:py-24">
+    <div className="flex overflow-hidden flex-col bg-white ">
       <div className="flex relative flex-col px-16 pt-96 pb-10 w-full text-lg font-bold leading-loose text-gray-200 min-h-[419px] max-md:px-5 max-md:pt-24 max-md:max-w-full">
         <img
           loading="lazy"

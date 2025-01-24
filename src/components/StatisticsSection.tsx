@@ -64,7 +64,7 @@ const StatisticsSection: React.FC = () => {
   ];
 
   return (
-    <div className="z-10 mt-0 ml-12 max-w-full w-[1080px] max-md:mt-0">
+    <div className="z-10 mt-0 md:ml-12 max-w-full w-[1080px] max-md:mt-0">
       <div className="flex  max-md:flex-col">
         <StatisticCard
           value="5000"

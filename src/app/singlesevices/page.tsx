@@ -47,7 +47,7 @@ function SingleService() {
   ];
 
   return (
-    <div className="flex flex-col bg-white max-md:py-24">
+    <div className="flex flex-col bg-white ">
       <div className="flex relative flex-col justify-center items-start px-20 py-40 w-full min-h-[419px] max-md:px-5 max-md:py-24 max-md:max-w-full">
         <img
           loading="lazy"

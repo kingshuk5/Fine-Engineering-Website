@@ -29,7 +29,7 @@ const Navigation: React.FC = () => {
   return (
     <div className="flex flex-col items-center self-stretch px-16 pt-5 w-full bg-white max-md:px-5 max-md:max-w-full mb-10 md:mb-0">
       <div className="flex z-10 -mb-1 max-w-full w-[1189px]">
-        <div className="flex flex-col">
+        <div className="md:flex flex-col hidden">
           {/* <div className="self-center text-sm font-light leading-none uppercase text-zinc-700">
             Support
           </div> */}
@@ -38,13 +38,13 @@ const Navigation: React.FC = () => {
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/0a2f900b9f7d744d4eef1b85ad9116de550cd39cfddcf85f18f7c161f1640fd7?placeholderIfAbsent=true&apiKey=d58f0417017c44eeafb1fd1e09f95bcf"
               alt=""
-              className="object-contain self-stretch my-auto aspect-[0.93] w-[75px]"
+              className="object-contain self-stretch animate-flip-up my-auto aspect-[0.93] w-[75px]"
             />
           </div>
         </div>
         <div className="flex flex-col grow shrink-0 items-end self-start whitespace-nowrap basis-0 w-fit max-md:max-w-full">
           <div className="flex flex-wrap gap-5 justify-between max-w-full text-sm leading-none uppercase w-[1079px]">
-            <div className="flex gap-10">
+            <div className="flex animate-fade-right gap-10">
               {topLinks.map((link, index) => (
                 <TopLink key={index} text={link} />
               ))}

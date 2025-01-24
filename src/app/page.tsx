@@ -16,7 +16,7 @@ const HomePage = () => {
       <HeroSection
         title="Welcome to Fine Engineering Works Limited"
         description="Fine Engineering Works Limited is a leading international engineering and construction company with a rich history dating back to 1979. With our headquarters in Nairobi, Kenya, and a branch in Kampala, Uganda, we specialize in providing state-of-the-art engineering services to the industrial sector"
-        ctaText="Learn more"
+        ctaText="Learn more.."
         backgroundImage="https://cdn.builder.io/api/v1/image/assets/TEMP/c9f91abed3a6975c8d76f7dadbc2e9d80542bf8d81571bb5a91809208a5e6876?placeholderIfAbsent=true&apiKey=d58f0417017c44eeafb1fd1e09f95bcf"
       />
       <StatisticsSection/>

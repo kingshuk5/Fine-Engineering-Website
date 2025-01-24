@@ -61,7 +61,7 @@ const ProjectDetails: React.FC = () => {
   ];
 
   return (
-    <div className="flex overflow-hidden flex-col bg-white max-md:py-24">
+    <div className="flex overflow-hidden flex-col bg-white">
       <div className="flex relative flex-col justify-center items-start px-20 py-40 w-full min-h-[419px] max-md:px-5 max-md:py-24 max-md:max-w-full">
         <Image
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/b8d1296aaae6ac4b2431c7e25b1fe9a6be81f3a138fbdfcc06db7597a9e454e2?placeholderIfAbsent=true&apiKey=d58f0417017c44eeafb1fd1e09f95bcf"

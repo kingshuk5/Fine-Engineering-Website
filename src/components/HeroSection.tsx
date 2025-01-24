@@ -19,13 +19,13 @@ const HeroSection: React.FC<HeroProps> = ({
         loading="lazy"
         src={backgroundImage}
         alt=""
-        className="object-cover absolute inset-0 size-full"
+        className="object-cover absolute animate-fade-up inset-0 size-full"
       />
       <div className="flex relative flex-col mb-0 max-w-full w-[983px] max-md:mb-2.5">
-        <h1 className="text-7xl font-semibold leading-[84px] max-md:max-w-full max-md:text-4xl max-md:leading-10">
+        <h1 className="text-7xl font-semibold  leading-[84px] animate-fade-right max-md:max-w-full max-md:text-4xl max-md:leading-10">
           {title}
         </h1>
-        <p className="mt-10 mr-20 text-xl font-bold leading-7 text-gray-200 max-md:mr-2.5 max-md:max-w-full">
+        <p className="mt-10 mr-20 text-xl font-bold leading-7 animate-fade-left text-gray-200 max-md:mr-2.5 max-md:max-w-full">
           {description}
         </p>
         <button 
