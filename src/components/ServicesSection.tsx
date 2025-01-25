@@ -1,4 +1,4 @@
-import { ArrowLeftCircleIcon, ArrowRightIcon } from "@heroicons/react/24/solid";
+import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import * as React from "react";
 
 interface ServiceCardProps {

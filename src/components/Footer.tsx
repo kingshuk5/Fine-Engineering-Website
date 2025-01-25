@@ -8,11 +8,6 @@ interface QuickLinkProps {
   text: string;
 }
 
-interface NewsItemProps {
-  title: string;
-  date: string;
-  author: string;
-}
 
 const SocialIcon: React.FC<SocialIconProps> = ({ padding }) => (
   <div className={`${padding} w-10 h-10 bg-white rounded-full`}></div>
