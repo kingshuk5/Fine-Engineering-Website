@@ -101,7 +101,7 @@ function SingleService() {
             <div className="flex flex-col w-[63%] max-md:ml-0 max-md:w-full">
               <div className="text-lg font-bold leading-7 text-black max-md:mt-10 max-md:max-w-full">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                industry. Lorem Ipsum has been the industry&apos;s standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into
@@ -113,15 +113,15 @@ function SingleService() {
                 <br />
                 <br />
                 Many desktop publishing packages and web page editors now use
-                Lorem Ipsum as their default model text, and a search for 'lorem
-                ipsum' will uncover many web sites still in their infancy.
+                Lorem Ipsum as their default model text, and a search for &apos;lorem
+                ipsum&apos; will uncover many web sites still in their infancy.
                 Various versions have evolved over the years, sometimes by
                 accident, sometimes on purpose (injected humour and the like).
                 <br />
                 <br />
                 Many desktop publishing packages and web page editors now use
-                Lorem Ipsum as their default model text, and a search for 'lorem
-                ipsum' will uncover many web sites still in their infancy.
+                Lorem Ipsum as their default model text, and a search for &apos;lorem
+                ipsum&apos; will uncover many web sites still in their infancy.
                 Various versions have evolved over the years, sometimes by
                 accident, sometimes on purpose (injected humour and the like).
               </div>
