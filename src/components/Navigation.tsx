@@ -1,8 +1,6 @@
 'use client';
 import * as React from "react";
-import NavLink from "@/components/NavLink";
 import NavigationMenu from "./headerComp";
-import { createContext } from "react";
 // import SocialIcons from "./SocialIcons";
 
 interface TopLinkProps {
@@ -13,18 +11,9 @@ const TopLink: React.FC<TopLinkProps> = ({ text }) => (
   <div className="font-light text-zinc-700">{text}</div>
 );
 
-const MyContext = createContext('');
-
 
 const Navigation: React.FC = () => {
   const topLinks = ["Support","Partners", "Careers"];
-  const navigationItems = [
-    { text: "Home", hasDropdown: false },
-    { text: "Services", hasDropdown: true },
-    { text: "Pages", hasDropdown: true },
-    { text: "News", hasDropdown: true },
-    { text: "Contacts", hasDropdown: false }
-  ];
 
   return (
     <div className="flex flex-col items-center self-stretch px-16 pt-5 w-full bg-white max-md:px-5 max-md:max-w-full mb-10 md:mb-0">
