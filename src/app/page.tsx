@@ -32,7 +32,7 @@ const RevealOnScroll: React.FC<{ children: React.ReactNode }> = ({ children }) =
               scrollObserver.unobserve(ref.current);
           }
       };
-  }, []);
+  }, [ref.current]);
 
   const classes = `transition-opacity duration-1000 
       ${isVisible ? "opacity-100" : "opacity-0"
