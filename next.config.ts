@@ -7,5 +7,7 @@ const nextConfig: NextConfig = {
 module.exports = {
   distDir: 'build',
 };
-
+module.exports = {
+  output: 'standalone', // or other configuration
+};
 export default nextConfig;
