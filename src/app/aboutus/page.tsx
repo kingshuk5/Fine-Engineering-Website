@@ -150,7 +150,7 @@ const AboutUs: React.FC = () => {
             
             <div className="mt-5 text-lg leading-7 text-center text-white w-[779px] max-md:max-w-full">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
+                industry. Lorem Ipsum has been the industry&apos;s standard dummy text
                 ever since the 1500s,
             </div>
             <button className="flex gap-1.5 self-center px-11 py-4 mt-5 w-60 max-w-full text-white whitespace-nowrap bg-emerald-600 max-md:px-5">
