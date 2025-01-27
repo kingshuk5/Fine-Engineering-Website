@@ -28,13 +28,15 @@ const HeroSection: React.FC<HeroProps> = ({
         <p className="mt-10 mr-20 text-xl font-bold leading-7 animate-fade-left text-gray-200 max-md:mr-2.5 max-md:max-w-full">
           {description}
         </p>
-        <button 
-          className="flex gap-1.5 self-start px-12 py-5 mt-16 bg-emerald-600 max-md:px-5 max-md:mt-10"
-          tabIndex={0}
-          aria-label={ctaText}
-        >
-          <span className="text-xl leading-tight text-right">{ctaText}</span>
-        </button>
+        <a href="/aboutus">
+          <button 
+            className="flex gap-1.5 self-start px-12 py-5 mt-16 bg-emerald-600 max-md:px-5 max-md:mt-10"
+            tabIndex={0}
+            aria-label={ctaText}
+          >
+            <span className="text-xl leading-tight text-right">{ctaText}</span>
+          </button>
+        </a>
       </div>
     </div>
     

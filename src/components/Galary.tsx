@@ -38,6 +38,7 @@ const OverlayCard: React.FC<OverlayCardProps> = ({ category, title, imageSrc, im
         <div className="self-stretch mt-2.5 text-lg leading-none text-white">
           {title}
         </div>
+        <a href="/portfolio">
         <button 
           className="px-4 mt-8 w-10 h-10 text-2xl leading-none text-blue-700 whitespace-nowrap bg-white"
           aria-label={`View more details about ${title}`}
@@ -45,6 +46,7 @@ const OverlayCard: React.FC<OverlayCardProps> = ({ category, title, imageSrc, im
         >
           +
         </button>
+        </a>
       </div>
     </div>
   </div>

@@ -45,13 +45,15 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ imageSrc, title, description,
         <div className="relative mt-8 text-lg font-medium leading-7 text-gray-300 max-md:mr-2.5">
           {description}
         </div>
-        <div className={`relative self-end px-4 mt-72 text-2xl font-black leading-none text-center text-white whitespace-nowrap ${bgColor} h-[55px] w-[55px] max-md:mt-10`} 
+        <a className={`relative self-end px-4 mt-72 text-2xl font-black leading-none text-center text-white whitespace-nowrap ${bgColor} h-[55px] w-[55px] max-md:mt-10`} 
              role="button" 
-             tabIndex={0}>
+             tabIndex={0}
+             href="/services"
+             >
               <ArrowRightIcon
                 className="my-3"
               />
-        </div>
+        </a>
       </div>
     </div>
   );

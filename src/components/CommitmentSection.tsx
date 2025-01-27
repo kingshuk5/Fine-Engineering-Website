@@ -37,19 +37,21 @@ const CommitmentSection: React.FC<CommitmentSectionProps> = () => {
               {sectionData.description}
             </div>
             <div className="flex flex-col mt-4 w-full text-white max-md:max-w-full">
-              <button 
-                className="flex flex-col justify-center items-end px-16 py-5 w-full bg-emerald-600 max-md:px-5 max-md:max-w-full"
-                tabIndex={0}
-                aria-label={sectionData.buttonText}
-              >
-                <div className="flex gap-5">
-                  <div className="text-xl leading-tight text-right">
-                    {sectionData.buttonText}
+              <a href="/aboutus">
+                <button 
+                  className="flex flex-col justify-center items-end px-16 py-5 w-full bg-emerald-600 max-md:px-5 max-md:max-w-full"
+                  tabIndex={0}
+                  aria-label={sectionData.buttonText}
+                >
+                  <div className="flex gap-5">
+                    <div className="text-xl leading-tight text-right">
+                      {sectionData.buttonText}
+                    </div>
+                    <div className="text-sm font-black leading-none text-center">
+                    </div>
                   </div>
-                  <div className="text-sm font-black leading-none text-center">
-                  </div>
-                </div>
-              </button>
+                </button>
+              </a>
             </div>
           </div>
         </div>
